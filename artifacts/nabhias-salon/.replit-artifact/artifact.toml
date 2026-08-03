@@ -1,0 +1,28 @@
+kind = "web"
+previewPath = "/"
+title = "Nabhia's Salon"
+description = "A premium, luxury, fully responsive beauty salon website for Nabhia's Salon in Ghauri Town Phase 4A, Islamabad. Includes Home, About, Services, Gallery, Reviews, FAQ, Contact, and Book Appointment pages. Features gold color palette, elegant typography, smooth animations, and editable placeholders for all business information."
+version = "1.0.0"
+id = "artifacts/nabhias-salon"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 18749
+
+[services.development]
+run = "pnpm --filter @workspace/nabhias-salon run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/nabhias-salon", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/nabhias-salon/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "18749"
+BASE_PATH = "/"

@@ -1,0 +1,634 @@
+You are an award-winning senior product designer, UI/UX architect, branding strategist, conversion copywriter, front-end engineer, accessibility expert, SEO specialist, and full-stack web developer.
+
+Your task is to design and develop a premium, modern, luxury, conversion-focused, fully responsive website for a professional beauty salon.
+
+The website should feel comparable in quality to leading international salon brands while remaining appropriate for a local Pakistani business.
+
+The website must look polished enough to present directly to a real client.
+
+──────────────────────────────────────
+BUSINESS INFORMATION
+──────────────────────────────────────
+
+Business Name:
+Nabhia's Salon
+
+Business Category:
+Beauty Salon
+
+Business Location:
+Ghauri Town Phase 4A, Islamabad, Pakistan
+
+Use verified public information where available.
+
+If any information cannot be verified, NEVER invent it.
+
+Instead use editable placeholders.
+
+Examples:
+
+[Phone Number]
+
+[Email Address]
+
+[Instagram]
+
+[Facebook]
+
+[Opening Hours]
+
+[WhatsApp Number]
+
+[Owner Name]
+
+[Gallery Images]
+
+Do not fabricate customer reviews, awards, years of experience, certifications, statistics, or achievements.
+
+──────────────────────────────────────
+PROJECT GOAL
+──────────────────────────────────────
+
+Create a premium website that helps the business:
+
+Increase appointments
+
+Increase trust
+
+Showcase salon work
+
+Display services
+
+Improve online branding
+
+Increase WhatsApp enquiries
+
+Increase phone calls
+
+Showcase gallery
+
+Generate more local leads
+
+Provide excellent mobile experience
+
+──────────────────────────────────────
+TARGET AUDIENCE
+──────────────────────────────────────
+
+Women
+
+Brides
+
+Students
+
+Working professionals
+
+Families
+
+Beauty-conscious customers
+
+Customers looking for premium salon services in Islamabad.
+
+──────────────────────────────────────
+DESIGN STYLE
+──────────────────────────────────────
+
+Modern
+
+Luxury
+
+Elegant
+
+Minimal
+
+Premium
+
+Warm
+
+Soft
+
+Feminine
+
+Professional
+
+The design should not look like a template.
+
+It should feel like a high-end beauty brand.
+
+Use lots of whitespace.
+
+Rounded corners.
+
+Beautiful shadows.
+
+Glassmorphism where appropriate.
+
+Premium gradients.
+
+Modern layouts.
+
+Luxury cards.
+
+Excellent spacing.
+
+──────────────────────────────────────
+COLOR PALETTE
+──────────────────────────────────────
+
+Primary
+#C89B3C
+
+Secondary
+#1F1F1F
+
+Accent
+#F5D6A1
+
+Background
+#FAF9F7
+
+Cards
+#FFFFFF
+
+Text
+#222222
+
+Muted
+#6B6B6B
+
+Borders
+#ECE8DF
+
+Buttons
+
+Gold
+
+Hover
+
+Dark Gold
+
+Ensure excellent accessibility and color contrast.
+
+──────────────────────────────────────
+TYPOGRAPHY
+──────────────────────────────────────
+
+Google Fonts
+
+Headings
+
+Playfair Display
+
+Body
+
+Poppins
+
+Buttons
+
+Poppins SemiBold
+
+Hero Heading
+
+60px Desktop
+
+40px Tablet
+
+32px Mobile
+
+Body
+
+18px Desktop
+
+16px Mobile
+
+──────────────────────────────────────
+PAGES
+──────────────────────────────────────
+
+Home
+
+About
+
+Services
+
+Gallery
+
+Reviews
+
+FAQ
+
+Contact
+
+Book Appointment
+
+Privacy Policy
+
+Terms
+
+404 Page
+
+──────────────────────────────────────
+HEADER
+──────────────────────────────────────
+
+Sticky Navigation
+
+Transparent over hero
+
+Scroll animation
+
+Logo
+
+Menu
+
+Book Appointment Button
+
+Mobile Hamburger Menu
+
+──────────────────────────────────────
+HOME PAGE
+──────────────────────────────────────
+
+Announcement Bar
+
+Hero
+
+Trust Badges
+
+Featured Services
+
+About Preview
+
+Why Choose Us
+
+Featured Gallery
+
+Bridal Section
+
+Hair Treatments
+
+Beauty Treatments
+
+Our Process
+
+Testimonials
+
+Google Reviews Placeholder
+
+Statistics Placeholder
+
+Service Area
+
+FAQ
+
+Contact CTA
+
+Footer
+
+──────────────────────────────────────
+SERVICES
+──────────────────────────────────────
+
+Hair Cut
+
+Hair Styling
+
+Hair Coloring
+
+Hair Spa
+
+Hair Wash
+
+Blow Dry
+
+Protein Treatment
+
+Keratin Treatment
+
+Hair Botox
+
+Rebonding
+
+Facial
+
+Hydra Facial
+
+Cleanup
+
+Waxing
+
+Threading
+
+Manicure
+
+Pedicure
+
+Bridal Makeup
+
+Party Makeup
+
+Mehndi
+
+Each service should include:
+
+Beautiful image
+
+Description
+
+Duration Placeholder
+
+Price Placeholder
+
+Book Button
+
+──────────────────────────────────────
+HERO
+──────────────────────────────────────
+
+Luxury salon image
+
+Elegant typography
+
+Premium CTA
+
+Primary Button
+
+Book Appointment
+
+Secondary Button
+
+WhatsApp Us
+
+──────────────────────────────────────
+ABOUT
+──────────────────────────────────────
+
+Write warm and professional copy.
+
+Use placeholders where needed.
+
+Never invent facts.
+
+──────────────────────────────────────
+GALLERY
+──────────────────────────────────────
+
+Modern Masonry Grid
+
+Before & After
+
+Hair Styling
+
+Hair Color
+
+Bridal Makeup
+
+Salon Interior
+
+Beauty Products
+
+Image Zoom
+
+Lightbox
+
+──────────────────────────────────────
+REVIEWS
+──────────────────────────────────────
+
+Never fabricate reviews.
+
+Use placeholders.
+
+Design premium review cards.
+
+Include Google Review button.
+
+──────────────────────────────────────
+BOOKING
+──────────────────────────────────────
+
+Appointment Form
+
+Name
+
+Phone
+
+Service
+
+Preferred Date
+
+Preferred Time
+
+Message
+
+Confirmation Screen
+
+Validation
+
+Success State
+
+Error State
+
+──────────────────────────────────────
+CONTACT
+──────────────────────────────────────
+
+Google Map Placeholder
+
+Editable Phone
+
+Editable WhatsApp
+
+Editable Address
+
+Editable Email
+
+Business Hours Placeholder
+
+Social Links Placeholder
+
+──────────────────────────────────────
+FOOTER
+──────────────────────────────────────
+
+Quick Links
+
+Services
+
+Contact
+
+Opening Hours Placeholder
+
+Social Icons
+
+Google Maps Link
+
+Copyright
+
+──────────────────────────────────────
+MICROINTERACTIONS
+──────────────────────────────────────
+
+Smooth scrolling
+
+Fade Up
+
+Fade Left
+
+Fade Right
+
+Image Reveal
+
+Hover Lift
+
+Button Ripple
+
+Loading Skeleton
+
+Sticky Navigation
+
+Animated Counters
+
+Gallery Hover
+
+Card Hover
+
+Page Transition
+
+Respect prefers-reduced-motion.
+
+──────────────────────────────────────
+MOBILE
+──────────────────────────────────────
+
+Responsive Layout
+
+Touch Friendly
+
+Sticky WhatsApp Button
+
+Sticky Call Button
+
+Responsive Typography
+
+Optimized Images
+
+Fast Loading
+
+Excellent Core Web Vitals
+
+──────────────────────────────────────
+SEO
+──────────────────────────────────────
+
+Generate:
+
+Meta Title
+
+Meta Description
+
+Open Graph
+
+Twitter Cards
+
+Canonical URL
+
+robots.txt
+
+sitemap.xml
+
+LocalBusiness Schema
+
+BeautySalon Schema
+
+Breadcrumb Schema
+
+FAQ Schema
+
+Use editable placeholders.
+
+──────────────────────────────────────
+ACCESSIBILITY
+──────────────────────────────────────
+
+WCAG Friendly
+
+Keyboard Navigation
+
+Focus States
+
+ARIA Labels
+
+High Contrast
+
+Screen Reader Friendly
+
+Accessible Forms
+
+──────────────────────────────────────
+PERFORMANCE
+──────────────────────────────────────
+
+Lazy Loading
+
+Image Optimization
+
+Code Splitting
+
+Reusable Components
+
+Fast Rendering
+
+Minimal JavaScript
+
+──────────────────────────────────────
+TECH STACK
+──────────────────────────────────────
+
+React
+
+Next.js
+
+Tailwind CSS
+
+TypeScript
+
+Framer Motion
+
+Lucide Icons
+
+React Hook Form
+
+Firebase Ready
+
+──────────────────────────────────────
+CONTENT RULES
+──────────────────────────────────────
+
+Never invent:
+
+Awards
+
+Certificates
+
+Customer Reviews
+
+Statistics
+
+Google Ratings
+
+Opening Hours
+
+Owner Information
+
+Phone Numbers
+
+Emails
+
+Use editable placeholders instead.
+
+──────────────────────────────────────
+FINAL DELIVERABLE
+──────────────────────────────────────
+
+Create a premium, elegant, fully responsive, SEO-friendly salon website with reusable components, polished animations, conversion-focused copy, editable business information, licensed placeholder imagery, accessible navigation, premium UI, excellent UX, optimized performance, and a client-ready presentation that can easily be customized for any beauty salon.
