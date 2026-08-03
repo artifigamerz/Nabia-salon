@@ -1,6 +1,6 @@
 import { z } from "zod";
 import hairColoringImg from "@assets/Screenshot_2026-08-03_235648_1785783518904.png";
-import hydraFacialImg from "@assets/Screenshot_2026-08-03_235815_1785783518905.png";
+import hydraFacialImg from "@assets/Screenshot_2026-08-04_000349_1785783847575.png";
 import bridalMakeupImg from "@assets/Screenshot_2026-08-03_235547_1785783530053.png";
 
 export const ServiceSchema = z.object({
