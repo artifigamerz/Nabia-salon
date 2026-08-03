@@ -10,7 +10,7 @@ import {
   ArrowRight, MessageCircle
 } from "lucide-react";
 import heroImg from "@assets/generated_images/hero.jpg";
-import bridalImg from "@assets/generated_images/bridal-dramatic.jpg";
+import bridalImg from "@assets/Screenshot_2026-08-03_235547_1785783530053.png";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 
 export default function Home() {
