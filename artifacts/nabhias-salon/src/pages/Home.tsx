@@ -55,7 +55,7 @@ export default function Home() {
                   Book Appointment
                 </Button>
               </Link>
-              <a href="https://wa.me/[WhatsApp Number]" target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto">
+              <a href="https://wa.me/920512158965" target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto">
                 <Button variant="outline" size="lg" className="w-full sm:w-auto text-lg px-8 border-white text-white hover:bg-white hover:text-secondary">
                   <MessageCircle className="mr-2 h-5 w-5" /> WhatsApp Us
                 </Button>

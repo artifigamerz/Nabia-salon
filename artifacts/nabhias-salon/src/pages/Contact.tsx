@@ -44,7 +44,7 @@ export default function Contact() {
                   <div>
                     <h4 className="font-medium text-secondary mb-1">Phone / WhatsApp</h4>
                     <p className="text-muted-foreground">[Phone Number]</p>
-                    <p className="text-muted-foreground">[WhatsApp Number]</p>
+                    <p className="text-muted-foreground">0512158965</p>
                   </div>
                 </div>
 
