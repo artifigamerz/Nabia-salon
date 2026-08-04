@@ -1,0 +1,41 @@
+# Dependencies
+node_modules
+pnpm-lock.yaml
+
+# Build
+dist
+.tsbuildinfo
+out
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode
+.idea
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Repo-specific
+.replit
+replit.md
+.cache/
+.local/
+.replitignore
+
+# Documentation
+README.md
+CONTRIBUTING.md
+
+# Tests (if any)
+__tests__
+*.test.ts
+*.test.tsx
+*.spec.ts
+*.spec.tsx
