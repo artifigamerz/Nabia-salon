@@ -46,7 +46,7 @@ export default function Home() {
               Where Beauty Meets <span className="text-primary italic">Elegance</span>
             </h1>
             <p className="text-lg md:text-xl text-white/90 max-w-2xl mx-auto mb-10 font-light leading-relaxed">
-              Experience the art of refinement in a sanctuary designed for the modern woman. Discover your most radiant self at Nabhia's Salon.
+              Share your details and our team will contact you shortly to discuss the best service for you.
             </p>
             
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
@@ -134,7 +134,7 @@ export default function Home() {
                   <p className="text-muted-foreground text-sm mb-6 line-clamp-2">{service.description}</p>
                   <Link href="/book">
                     <span className="inline-flex items-center text-primary font-semibold text-sm hover:text-secondary transition-colors">
-                      Book Now <ArrowRight className="ml-2 h-4 w-4" />
+                      Book Appointment <ArrowRight className="ml-2 h-4 w-4" />
                     </span>
                   </Link>
                 </div>

@@ -90,7 +90,7 @@ export default function Services() {
                 
                 <Link href={`/book?service=${service.id}`}>
                   <Button className="w-full group-hover:bg-primary/90">
-                    Book Now
+                    Book Appointment
                   </Button>
                 </Link>
               </div>
