@@ -74,9 +74,9 @@
     "react": "19.1.0",
     "react-dom": "19.1.0",
     "clsx": "^1.2.1",
-    "@workspace/api-client-react": "file:../../attached_assets/lib/api-client-react"
+    "@workspace/api-client-react": "file:../../lib/api-client-react"
   },
   "_original": {
-    "note": "Converted catalog/workspace entries to concrete versions and local file references for Vercel compatibility."
+    "note": "Converted catalog/workspace entries to concrete versions and local file references for Vercel compatibility. Changed to use lib/api-client-react local package."
   }
 }
