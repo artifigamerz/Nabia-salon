@@ -6,8 +6,18 @@ import { zodResolver } from "@hookform/resolvers/zod";
 import { z } from "zod";
 import { Button } from "@/components/ui/button";
 import { SERVICES } from "@/data/services";
-import { CheckCircle2, Calendar, Clock, User, Phone, Mail, FileText } from "lucide-react";
-import heroImg from "@assets/generated_images/hero.jpg";
+import { CheckCircle2, Calendar, Clock, User, Phone, Mail, FileText, AlertCircle } from "lucide-react";
+import heroImg from "@assets/ChatGPT_Image_Aug_4,_2026,_06_51_53_PM_1785851568590.png";
+import { supabase } from "@/lib/supabase";
+
+// Convert "10:00 AM" → "10:00:00" for Supabase TIME column
+function toTime24(slot: string): string {
+  const [time, period] = slot.split(" ");
+  let [hours, minutes] = time.split(":").map(Number);
+  if (period === "PM" && hours !== 12) hours += 12;
+  if (period === "AM" && hours === 12) hours = 0;
+  return `${String(hours).padStart(2, "0")}:${String(minutes).padStart(2, "0")}:00`;
+}
 
 const bookingSchema = z.object({
   name: z.string().min(2, "Name must be at least 2 characters"),
@@ -27,6 +37,7 @@ export default function Book() {
   const preselectedService = searchParams.get("service") || "";
   
   const [isSubmitted, setIsSubmitted] = useState(false);
+  const [submitError, setSubmitError] = useState<string | null>(null);
 
   const { register, handleSubmit, formState: { errors, isSubmitting }, watch } = useForm<BookingFormValues>({
     resolver: zodResolver(bookingSchema),
@@ -39,9 +50,25 @@ export default function Book() {
   });
 
   const onSubmit = async (data: BookingFormValues) => {
-    // Simulate API call
-    await new Promise((resolve) => setTimeout(resolve, 1500));
-    console.log("Booking request:", data);
+    setSubmitError(null);
+    const serviceName = SERVICES.find(s => s.id === data.serviceId)?.name ?? data.serviceId;
+
+    const { error } = await supabase.from("appointments").insert({
+      service: serviceName,
+      appointment_date: data.date,
+      appointment_time: toTime24(data.time),
+      full_name: data.name,
+      phone_number: data.phone,
+      email: data.email || null,
+      additional_notes: data.notes || null,
+      status: "Pending",
+    });
+
+    if (error) {
+      setSubmitError("Something went wrong saving your booking. Please try again or contact us via WhatsApp.");
+      return;
+    }
+
     setIsSubmitted(true);
   };
 
@@ -217,6 +244,13 @@ export default function Book() {
                     ></textarea>
                   </div>
 
+                  {submitError && (
+                    <div className="flex items-start gap-3 bg-destructive/10 border border-destructive/20 text-destructive rounded-lg p-4 text-sm">
+                      <AlertCircle className="w-4 h-4 mt-0.5 shrink-0" />
+                      <span>{submitError}</span>
+                    </div>
+                  )}
+
                   <Button 
                     type="submit" 
                     className="w-full h-14 text-lg" 
@@ -225,7 +259,7 @@ export default function Book() {
                     {isSubmitting ? (
                       <span className="flex items-center">
                         <span className="w-5 h-5 border-2 border-white/30 border-t-white rounded-full animate-spin mr-2"></span>
-                        Processing...
+                        Saving your booking...
                       </span>
                     ) : "Confirm Booking Request"}
                   </Button>
