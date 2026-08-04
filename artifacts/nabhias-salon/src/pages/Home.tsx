@@ -9,7 +9,7 @@ import {
   Clock, MapPin, Star, ShieldCheck, UserCheck, 
   ArrowRight, MessageCircle
 } from "lucide-react";
-import heroImg from "@assets/generated_images/hero.jpg";
+import heroImg from "@assets/ChatGPT_Image_Aug_4,_2026,_06_51_53_PM_1785851568590.png";
 import bridalImg from "@assets/Screenshot_2026-08-03_235547_1785783530053.png";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 
